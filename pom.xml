@@ -44,18 +44,18 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<!-- 指定maven编译的jdk版本 -->
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
-				<configuration>
-					<verbose>true</verbose>
-					<fork>true</fork>
-					<!--你的jdk地址-->
-					<executable>C:\Program Files\Java\jdk1.8.0_321\bin\javac</executable>
-				</configuration>
-			</plugin>
+<!--			<plugin>-->
+<!--				&lt;!&ndash; 指定maven编译的jdk版本 &ndash;&gt;-->
+<!--				<groupId>org.apache.maven.plugins</groupId>-->
+<!--				<artifactId>maven-compiler-plugin</artifactId>-->
+<!--				<version>3.8.1</version>-->
+<!--				<configuration>-->
+<!--					<verbose>true</verbose>-->
+<!--					<fork>true</fork>-->
+<!--					&lt;!&ndash;你的jdk地址&ndash;&gt;-->
+<!--					<executable>C:\Program Files\Java\jdk1.8.0_321\bin\javac</executable>-->
+<!--				</configuration>-->
+<!--			</plugin>-->
 		</plugins>
 		<finalName>spring-boot-docker</finalName>
 	</build>
